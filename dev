@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+rm ~/.tmux.conf
+ln -s $(pwd)/tmux/.tmux.conf ~/.tmux.conf
+
+rm -rf ~/.config/nvim
+ln -s $(pwd)/nvim ~/.config/nvim
